@@ -35,3 +35,8 @@ os.environ['PATH'] = os.environ['PATH']+';'+os.environ['CONDA_PREFIX']+r"\Librar
 <p> <h3> Visulazization and Accuracy of the Tree using default parameters: </h3> </p>
 <img src="https://github.com/geekquad/Decision-Tree-from-Scratch/blob/master/without_param_tune.png">
 <h4> Accuracy : 0.66 </h4>
+<p> <h3> Visulazization and Accuracy of the Tree after parameter tuning: </h3> </p>
+<img src="https://github.com/geekquad/Decision-Tree-from-Scratch/blob/master/with_param_tune.png">
+<h4> Accuracy : 0.77 </h4>
+This pruned model is less complex, explainable, and easy to understand than the previous decision tree model plot.
+                                                                                                
