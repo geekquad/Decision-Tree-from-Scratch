@@ -27,15 +27,15 @@ from sklearn.externals.six import StringIO
 from IPython.display import Image
 import pydotplus
 ```
-If the error **Graphviz executables not found** occurs, the run the following command:
+If the error **Graphviz executables not found** occurs, then run the following command:
 ```
 import os
 os.environ['PATH'] = os.environ['PATH']+';'+os.environ['CONDA_PREFIX']+r"\Library\bin\graphviz"
 ```
-<p> <h3> Visulazization and Accuracy of the Tree using default parameters: </h3> </p>
+<p> <h3> Visualization and Accuracy of the Tree using default parameters: </h3> </p>
 <img src="https://github.com/geekquad/Decision-Tree-from-Scratch/blob/master/without_param_tune.png">
 <h4> Accuracy : 0.66 </h4>
-<p> <h3> Visulazization and Accuracy of the Tree after parameter tuning: </h3> </p>
+<p> <h3> Visualization and Accuracy of the Tree after parameter tuning: </h3> </p>
 <img src="https://github.com/geekquad/Decision-Tree-from-Scratch/blob/master/with_param_tune.png">
 <h4> Accuracy : 0.77 </h4>
 This pruned model is less complex, explainable, and easy to understand than the previous decision tree model plot.
